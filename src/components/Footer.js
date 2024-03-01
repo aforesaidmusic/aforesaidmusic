@@ -26,11 +26,11 @@ function Footer() {
         >
           <input
             class="form-email"
-            name="useremail"
+            name="email"
             type="email"
             placeholder='EMAIL ADDRESS'
             value={userEmail}
-            onChange={(e) => { setUserEmail(e.target.useremail) }}
+            onChange={(e) => { setUserEmail(e.target.value) }}
             spellCheck="false"
             required
           />
