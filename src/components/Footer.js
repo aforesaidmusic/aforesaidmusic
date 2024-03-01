@@ -23,7 +23,7 @@ function Footer() {
           method='POST'
           onSubmit={handleFormSubmit}
         >
-          <input type='hidden' name='getupdates' value="getupdates" />
+          <input type='hidden' name='form-name' value="getupdates" />
           <input
             class="form-email"
             name="email"
