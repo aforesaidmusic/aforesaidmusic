@@ -1,21 +1,32 @@
 /*Styles*/
 import '../styles/Footer.scss';
 /*Necessary Imports*/
-import React from 'react'
+import { useState } from 'react';
 import { BsSpotify, BsInstagram, BsFacebook, BsApple, BsYoutube, BsTiktok } from "react-icons/bs";
 
 function Footer() {
-  function handleFormSubmit(e) { e.preventDefault(); }
+
+  const [userEmail, setUserEmail] = useState("")
+
 
   return (
     <footer class="section-footer">
       <section class="footer-form">
-        <form class="updates-form">
-          <input class="form-email" type="email" placeholder='EMAIL ADDRESS' />
-          <button class="form-submit" onClick={handleFormSubmit}>GET UPDATES</button>
+        <form class="updates-form" name="getupdates" method='post' onSubmit={() => { setUserEmail("") }}>
+          <input
+            class="form-email"
+            name="useremail"
+            type="email"
+            placeholder='EMAIL ADDRESS'
+            value={userEmail}
+            onChange={(e) => { setUserEmail(e.target.useremail) }}
+            spellCheck="false"
+            required
+          />
+          <button class="form-submit" type='submit'>GET UPDATES</button>
         </form>
       </section>
-      
+
       <section class="footer-socials">
         <ul class='socials-list'>
           <li class="social">
