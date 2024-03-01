@@ -8,17 +8,21 @@ function Footer() {
 
   const [userEmail, setUserEmail] = useState("")
 
+  const handleFormSubmit = (event) => {
+    event.preventDefault();
+    setUserEmail("")
+  };
+
 
   return (
     <footer class="section-footer">
       <section class="footer-form">
         <form
+          data-netlify="true"
+          netlify
           class="updates-form"
           name="getupdates"
-          method='post'
-          onSubmit={() => { setUserEmail("") }}
-          netlify
-          data-netlify="true"
+          onSubmit={handleFormSubmit}
         >
           <input
             class="form-email"
