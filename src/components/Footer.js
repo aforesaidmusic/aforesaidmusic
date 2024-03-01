@@ -16,6 +16,7 @@ function Footer() {
         <form
           class="updates-form"
           name="getupdates"
+          method='POST'
         >
           <input type="hidden" name="form-name" value="getupdates" />
           <input
