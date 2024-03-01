@@ -18,6 +18,7 @@ function Footer() {
           method='post'
           onSubmit={() => { setUserEmail("") }}
           netlify
+          data-netlify="true"
         >
           <input
             class="form-email"
