@@ -30,7 +30,7 @@ function Footer() {
             class="form-email"
             name="email"
             type="email"
-            id="name"
+            id="email"
             placeholder='EMAIL ADDRESS'
             value={userEmail}
             onChange={(e) => { setUserEmail(e.target.value) }}
