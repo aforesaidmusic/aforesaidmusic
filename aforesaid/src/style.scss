@@ -1,4 +1,3 @@
-
 :root {
   --color1: #a19b97;
   --color2: #111111;
@@ -54,7 +53,7 @@ div.App {
       position: fixed;
       z-index: -1;
       width: 100%;
-      height: 100%;
+      height: 100vh;
       filter: saturate(0.5);
       object-fit: cover;
     }
