@@ -8,10 +8,6 @@ function Footer() {
 
   const [userEmail, setUserEmail] = useState("")
 
-  const handleFormSubmit = (event) => {
-    event.preventDefault();
-    setUserEmail("")
-  };
 
 
   return (
@@ -21,9 +17,8 @@ function Footer() {
           class="updates-form"
           name="getupdates"
           method='POST'
-          onSubmit={handleFormSubmit}
         >
-          <input type='hidden' name='form-name' value="getupdates" />
+          <input type="hidden" name="form-name" value="getupdates" />
           <input
             class="form-email"
             name="email"
