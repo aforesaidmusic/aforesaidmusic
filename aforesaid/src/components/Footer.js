@@ -12,7 +12,7 @@ function Footer() {
   return (
     <footer class="section-footer">
       <section class="footer-form">
-        <form class="updates-form" name="getupdates" method='post' onSubmit={() => { setUserEmail("") }}>
+        <form class="updates-form" name="getupdates" method='post' onSubmit={() => { setUserEmail("") }} netlify>
           <input
             class="form-email"
             name="useremail"
