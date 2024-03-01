@@ -1,0 +1,117 @@
+aside.section-aside {
+  height: 100%;
+  width: 100%;
+
+  div.background-blur {
+    overflow: hidden;
+    
+    position: fixed;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--color4);
+  }
+
+  div.aside-container {
+    position: fixed;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    max-height: 100vh;
+    background-image: var(--gradientbackground1);
+    border-radius: 6px;
+    box-shadow: var(--boxshadow2);
+    -webkit-box-shadow: var(--boxshadow2);
+    -moz-box-shadow: var(--boxshadow2);
+    font-family: var(--fontfamily2);
+    font-style: normal;
+    overflow: scroll;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    span.aside-close {
+      cursor: pointer;
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      color: var(--color5);
+      font-size: 30px;
+    }
+    div.aside-header-container {
+      img.aside-header-image {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+      }
+      h2.aside-header-title {
+        margin-top: 5px;
+        color: var(--color2);
+        opacity: 0.75;
+        font-size: 26px;
+        font-weight: 900;
+        text-align: center;
+
+        span.title-type {
+          display: block;
+          opacity: 0.6;
+          margin-top: 5px;
+          font-size: 12px;
+          font-weight: 500;
+        }
+      }
+    }
+    ul.aside-links {
+      li.link {
+        margin-bottom: 8px;
+        border-bottom: 1px solid var(--color6);
+        list-style-type: none;
+
+        &:hover {
+          & a.platform-link button.button-play {
+            background-color: var(--color7);
+          }
+        }
+
+        &:active {
+          & a.platform-link button.button-play {
+            background-color: var(--color8);
+          }
+        }
+
+        &:last-child {
+          border: none;
+        }
+
+        a.platform-link {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 10px 15px;
+          margin-bottom: 2.5px;
+          text-decoration: none;
+
+          img.platform-logo {
+          }
+
+          button.button-play {
+            cursor: pointer;
+            padding: 8px 26px;
+            background-color: var(--color8);
+            color: var(--color9);
+            font-family: var(--fontfamily2);
+            font-style: normal;
+            font-weight: 800;
+            transition: background-color 0.2s;
+            user-select: none;
+          }
+        }
+      }
+    }
+  }
+}

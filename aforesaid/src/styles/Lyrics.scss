@@ -1,0 +1,23 @@
+article.section-lyrics {
+  height: 70vh;
+  color: var(--color1);
+  font-family: var(--fontfamily1);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 200px;
+
+  div {
+    h1.first-text {
+      text-align: left;
+      margin-left: 220px;
+      overflow: hidden;
+    }
+    h1.second-text {
+      margin-top: 80px;
+      text-align: right;
+      margin-right: 220px;
+      overflow: hidden;
+    }
+  }
+}
