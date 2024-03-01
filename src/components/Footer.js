@@ -18,14 +18,12 @@ function Footer() {
     <footer class="section-footer">
       <section class="footer-form">
         <form
-          data-netlify="true"
-          netlify
           class="updates-form"
           name="getupdates"
           method='POST'
           onSubmit={handleFormSubmit}
         >
-          <input type='hidden' name='form-name' value="getupdates" />
+          <input type='hidden' name='getupdates' value="getupdates" />
           <input
             class="form-email"
             name="email"
