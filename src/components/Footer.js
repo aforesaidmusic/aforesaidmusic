@@ -22,6 +22,7 @@ function Footer() {
           netlify
           class="updates-form"
           name="getupdates"
+          method='POST'
           onSubmit={handleFormSubmit}
         >
           <input
