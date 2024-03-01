@@ -25,10 +25,12 @@ function Footer() {
           method='POST'
           onSubmit={handleFormSubmit}
         >
+          <input type='hidden' name='form-name' value="getupdates" />
           <input
             class="form-email"
             name="email"
             type="email"
+            id="name"
             placeholder='EMAIL ADDRESS'
             value={userEmail}
             onChange={(e) => { setUserEmail(e.target.value) }}
