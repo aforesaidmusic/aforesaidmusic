@@ -42,7 +42,7 @@ function Aside(props) {
 
             <div class="aside-header-container">
               <img class="aside-header-image" src={props.clickedMusic.image} style={{ width: "100%" }} alt={props.clickedMusic.imageDescription} />
-              <h2 class="aside-header-title">{props.clickedMusic.name}<span class="title-type">{props.clickedMusic.type}</span></h2>
+              <title class="aside-header-title">{props.clickedMusic.name}<span class="title-type">{props.clickedMusic.type}</span></title>
             </div>
 
             <ul class='aside-links'>
