@@ -43,6 +43,10 @@ footer.section-footer {
         &:hover {
           transform: scale(1.1);
         }
+
+        &:active {
+          transform: scale(1);
+        }
       }
     }
   }
@@ -72,6 +76,10 @@ footer.section-footer {
 
           &:hover {
             color: var(--color3);
+          }
+
+          &:active {
+            color: var(--color1);
           }
         }
       }

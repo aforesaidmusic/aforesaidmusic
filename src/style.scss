@@ -75,6 +75,24 @@ div.App {
   }
 }
 
+@media only screen and (max-height: 800px) {
+  img.platform-logo {
+    height: 34px !important;
+  }
+  div.aside-container {
+    width: 270px !important;
+  }
+  a.platform-link {
+    padding: 5px 15px !important;
+  }
+  a.platform-link:first-child {
+    padding-top: 11px !important;
+  }
+  button.button-play {
+    padding: 8px 20px !important;
+  }
+}
+
 @media only screen and (max-width: 1500px) {
   ul.music-list {
     padding: 0 125px !important;
@@ -95,24 +113,6 @@ div.App {
   }
   h1.second-text {
     margin-right: 150px !important;
-  }
-}
-
-@media only screen and (max-height: 800px) {
-  img.platform-logo {
-    height: 34px;
-  }
-  div.aside-container {
-    width: 270px !important;
-  }
-  a.platform-link {
-    padding: 5px 15px !important;
-  }
-  a.platform-link:first-child {
-    padding-top: 11px !important;
-  }
-  button.button-play {
-    padding: 8px 20px !important;
   }
 }
 
@@ -213,13 +213,13 @@ div.App {
 }
 @media only screen and (max-width: 500px) {
   form.updates-form {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: 0 20px;
+    display: flex !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+    margin: 0 20px !important;
   }
   input.form-email {
-    width: 100%;
+    width: 100% !important;
     font-size: 16px !important;
   }
   button.form-submit {

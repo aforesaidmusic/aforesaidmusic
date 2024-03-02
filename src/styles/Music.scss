@@ -55,6 +55,7 @@ main.section-music {
       }
 
       button.music-listen {
+        user-select: none;
         cursor: pointer;
         padding: 12px 24px;
         margin-bottom: 25px;
@@ -69,10 +70,13 @@ main.section-music {
         font-style: normal;
         font-weight: 300;
         transition: transform 0.2s;
-        user-select: none;
 
         &:hover {
           transform: scale(1.1);
+        }
+
+        &:active {
+          transform: scale(1);
         }
       }
     }
