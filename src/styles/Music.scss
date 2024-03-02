@@ -2,6 +2,7 @@ main.section-music {
   padding: 250px 0 0 0;
 
   h2.music-header {
+    user-select: none;
     margin-bottom: 70px;
     color: var(--color1);
     font-family: var(--fontfamily1);
@@ -9,7 +10,6 @@ main.section-music {
     font-style: normal;
     font-weight: 400;
     text-align: center;
-    user-select: none;
   }
   ul.music-list {
     display: flex;
@@ -44,6 +44,7 @@ main.section-music {
       }
 
       h3.music-title {
+        user-select: none;
         margin: 15px 0 10px 0;
         color: var(--color1);
         font-family: var(--fontfamily2);
@@ -51,7 +52,6 @@ main.section-music {
         font-style: normal;
         font-weight: 200;
         text-align: center;
-        user-select: none;
       }
 
       button.music-listen {

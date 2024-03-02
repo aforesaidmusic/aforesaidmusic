@@ -5,10 +5,7 @@ import { useState } from 'react';
 import { BsSpotify, BsInstagram, BsFacebook, BsApple, BsYoutube, BsTiktok } from "react-icons/bs";
 
 function Footer() {
-
   const [userEmail, setUserEmail] = useState("")
-
-
 
   return (
     <footer class="section-footer">

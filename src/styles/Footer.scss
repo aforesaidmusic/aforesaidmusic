@@ -29,16 +29,16 @@ footer.section-footer {
         }
       }
       button.form-submit {
+        user-select: none;
         cursor: pointer;
         padding: 12px 20px;
         background-color: transparent;
+        box-shadow: var(--boxshadow1);
         -webkit-box-shadow: var(--boxshadow1);
         -moz-box-shadow: var(--boxshadow1);
-        box-shadow: var(--boxshadow1);
         color: var(--color3);
         font-size: 26px;
         transition: transform 0.2s;
-        user-select: none;
 
         &:hover {
           transform: scale(1.1);
@@ -61,10 +61,10 @@ footer.section-footer {
         list-style-type: none;
 
         a.social-icon {
+          user-select: none;
           color: var(--color1);
           font-size: 30px;
           transition: color 0.2s;
-          user-select: none;
 
           &:visited {
             color: var(--color1);

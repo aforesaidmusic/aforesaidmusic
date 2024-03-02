@@ -1,10 +1,8 @@
 aside.section-aside {
-  height: 100%;
   width: 100%;
+  height: 100%;
 
   div.background-blur {
-    overflow: hidden;
-    
     position: fixed;
     z-index: 1;
     top: 50%;
@@ -13,6 +11,7 @@ aside.section-aside {
     width: 100vw;
     height: 100vh;
     background-color: var(--color4);
+    overflow: hidden;
   }
 
   div.aside-container {
@@ -50,9 +49,9 @@ aside.section-aside {
         border-top-right-radius: 5px;
       }
       h2.aside-header-title {
+        opacity: 0.75;
         margin-top: 5px;
         color: var(--color2);
-        opacity: 0.75;
         font-size: 26px;
         font-weight: 900;
         text-align: center;
@@ -100,6 +99,7 @@ aside.section-aside {
           }
 
           button.button-play {
+            user-select: none;
             cursor: pointer;
             padding: 8px 26px;
             background-color: var(--color8);
@@ -108,10 +108,11 @@ aside.section-aside {
             font-style: normal;
             font-weight: 800;
             transition: background-color 0.2s;
-            user-select: none;
           }
         }
       }
     }
   }
 }
+
+
