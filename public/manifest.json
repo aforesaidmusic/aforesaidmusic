@@ -2,7 +2,7 @@
   "short_name": "Aforesaid",
   "name": "Aforesaid Music",
   "display": "standalone",
-  "description": "Weather forecast information",
+  "description": "Listen to independent artist Aforesaid's dark, gloomy, gothic, atmospheric music catalogue",
   "icons": [
     {
       "src": "../src/pictures/stalker.jpg",
