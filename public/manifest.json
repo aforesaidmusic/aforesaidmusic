@@ -1,4 +1,23 @@
 {
   "short_name": "Aforesaid",
-  "name": "Aforesaid Music"
+  "name": "Aforesaid Music",
+  "display": "standalone",
+  "description": "Weather forecast information",
+  "icons": [
+    {
+      "src": "../src/pictures/stalker.jpg",
+      "type": "image/jpg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "../src/pictures/stalker.jpg",
+      "type": "image/jpg",
+      "sizes": "192x192"
+    },
+    {
+      "src": "../src/pictures/stalker.jpg",
+      "type": "image/jpg",
+      "sizes": "512x512"
+    }
+  ]
 }
