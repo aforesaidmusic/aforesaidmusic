@@ -5,17 +5,17 @@
   "description": "Listen to independent artist Aforesaid's dark, gloomy, gothic, atmospheric music catalogue",
   "icons": [
     {
-      "src": "../src/pictures/stalker.jpg",
+      "src": "../src/pictures/favicon128.png",
       "type": "image/jpg",
       "sizes": "512x512"
     },
     {
-      "src": "../src/pictures/stalker.jpg",
+      "src": "../src/pictures/favicon128.png",
       "type": "image/jpg",
       "sizes": "192x192"
     },
     {
-      "src": "../src/pictures/stalker.jpg",
+      "src": "../src/pictures/favicon128.png",
       "type": "image/jpg",
       "sizes": "512x512"
     }
